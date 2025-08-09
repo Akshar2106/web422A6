@@ -1,0 +1,32 @@
+{
+  "name": "met-museum-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env PORT=3001 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.7",
+    "cross-env": "^10.0.0",
+    "jotai": "^2.12.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^8.17.0",
+    "next": "15.3.5",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.60.0",
+    "swr": "^2.3.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5"
+  }
+}
