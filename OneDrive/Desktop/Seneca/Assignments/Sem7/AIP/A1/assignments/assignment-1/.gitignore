@@ -1,0 +1,7 @@
+node_modules
+.env
+dist
+*.js
+!review.js
+!tools.js
+!bad_code.js
